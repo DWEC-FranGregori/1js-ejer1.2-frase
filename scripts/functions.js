@@ -4,7 +4,9 @@ function letters(cadena) {
   return String(cadena).length;
 }
 
-function words(cadena) {}
+function words(cadena) {
+  return String(cadena).split(" ").length;
+}
 
 function upperString(cadena) {}
 
