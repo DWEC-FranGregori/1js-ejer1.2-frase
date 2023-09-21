@@ -12,7 +12,11 @@ function upperString(cadena) {
   return String(cadena).toUpperCase();
 }
 
-function titleString(cadena) {}
+function titleString(cadena) {
+  let words = String(cadena).split(" ");
+  words = words.map((word) => word.charAt(0).toUpperCase() + word.slice(1));
+  return words.join(" ");
+}
 
 function backwardsLetters(cadena) {}
 
