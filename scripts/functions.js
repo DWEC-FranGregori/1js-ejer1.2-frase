@@ -13,12 +13,16 @@ function upperString(cadena) {
 }
 
 function titleString(cadena) {
-  let words = String(cadena).split(" ");
-  words = words.map((word) => word.charAt(0).toUpperCase() + word.slice(1));
-  return words.join(" ");
+  let wordsArray = String(cadena).split(" ");
+  wordsArray = wordsArray.map(
+    (word) => word.charAt(0).toUpperCase() + word.slice(1)
+  );
+  return wordsArray.join(" ");
 }
 
-function backwardsLetters(cadena) {}
+function backwardsLetters(cadena) {
+  return String(cadena).split("").reverse().join("");
+}
 
 function backwardsWords(cadena) {}
 
