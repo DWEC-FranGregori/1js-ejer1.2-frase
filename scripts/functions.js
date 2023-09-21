@@ -8,7 +8,9 @@ function words(cadena) {
   return String(cadena).split(" ").length;
 }
 
-function upperString(cadena) {}
+function upperString(cadena) {
+  return String(cadena).toUpperCase();
+}
 
 function titleString(cadena) {}
 
