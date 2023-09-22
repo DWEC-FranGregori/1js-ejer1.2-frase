@@ -24,7 +24,9 @@ function backwardsLetters(cadena) {
   return String(cadena).split("").reverse().join("");
 }
 
-function backwardsWords(cadena) {}
+function backwardsWords(cadena) {
+  return String(cadena).split(" ").reverse().join(" ");
+}
 
 function palindrome(cadena) {}
 
